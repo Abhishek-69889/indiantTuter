@@ -1,0 +1,293 @@
+
+
+  /* hero-Section Paga// */
+
+ #hero-image{
+    margin-top: 3vw;
+   border: 1px solid white;
+ } 
+  #hero-Section-main-h1{
+   font-size: 3vw;
+    line-height: 4vw;
+  }
+  #hero-Section-main-h1 span{
+    color: rgba(0, 0, 255, 0.496);
+    font-weight: 700;
+  }
+
+  #hero-Section-main-para{
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  #hero-Section-main-para span{
+    color: rgba(0, 0, 255, 0.496);
+    font-weight: 700;
+  }
+
+
+  /* hero-Section-main-button */
+
+  #hero-Section-main-button{
+    background-color:rgba(0, 0, 255, 0.496) ;
+    position: relative;
+    top: 2vw;
+  }
+
+
+  /* subject-section */
+
+  #subject-card-main{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 1vw;
+  }
+
+ /* chemistry */
+
+  #subject-card-main-chemistry{
+    width: 25vw;
+    height: 13vw;
+    background-image: url('https://iimtu.edu.in/blog/wp-content/uploads/2023/10/Chemistry-1.jpg');
+    background-size: cover; /* Optional: Adjusts the size of the background image */
+    background-repeat: no-repeat;
+ 
+  }
+
+  #subject-card-main-chemistry:hover{
+    scale: 1;
+    box-shadow: 2px 2px 2px 4px rgba(0, 0, 255, 0.496);
+ transition: .5s ease-in-out;
+  }
+
+  #subject-card-main-chemistry a{
+    color: white;
+    width: 100%;
+    height: 100%;
+   font-size: 3vw;
+   backdrop-filter: blur(1px);
+ 
+  }
+
+  /* physics */
+  
+  #subject-card-main-physics{
+    width: 25vw;
+    height: 13vw;
+    background-image: url('https://media.geeksforgeeks.org/wp-content/uploads/20240502160218/Physics.webp');
+    background-size: cover; /* Optional: Adjusts the size of the background image */
+    background-repeat: no-repeat;
+ 
+  }
+
+  #subject-card-main-physics:hover{
+    scale: 1;
+    box-shadow: 2px 2px 2px 4px rgba(0, 0, 255, 0.496);
+ transition: .5s ease-in-out;
+  }
+
+  #subject-card-main-physics a{
+    color: white;
+    width: 100%;
+    height: 100%;
+   font-size: 3vw;
+   backdrop-filter: blur(1px);
+ 
+  }
+
+  /* math */
+
+  #subject-card-main-math{
+    width: 25vw;
+    height: 13vw;
+    background-image: url('https://d23qowwaqkh3fj.cloudfront.net/wp-content/uploads/2024/05/mathematics-symbols.jpg');
+    background-size: cover; /* Optional: Adjusts the size of the background image */
+    background-repeat: no-repeat;
+ 
+  }
+
+  #subject-card-main-math:hover{
+    scale: 1;
+    box-shadow: 2px 2px 2px 4px rgba(0, 0, 255, 0.496);
+ transition: .5s ease-in-out;
+  }
+
+  #subject-card-main-math a{
+    color: white;
+    width: 100%;
+    height: 100%;
+   font-size: 3vw;
+   backdrop-filter: blur(1px);
+ 
+  }
+
+  /* geography */
+
+  #subject-card-main-geography{
+    width: 25vw;
+    height: 13vw;
+    background-image: url('https://i.pinimg.com/736x/13/9b/a8/139ba8b838b6d9577ba019da644dec86.jpg');
+    background-size: cover; /* Optional: Adjusts the size of the background image */
+    background-repeat: no-repeat;
+ }
+
+ #subject-card-main-geography:hover{
+    scale: 1;
+    box-shadow: 2px 2px 2px 4px rgba(0, 0, 255, 0.496);
+ transition: .5s ease-in-out;
+  }
+
+  #subject-card-main-geography a{
+    color: white;
+    width: 100%;
+    height: 100%;
+   font-size: 3vw;
+   backdrop-filter: blur(2px);
+ 
+  }
+
+  /* History */
+
+  #subject-card-main-history{
+    width: 25vw;
+    height: 13vw;
+    background-image: url('https://image.jimcdn.com/app/cms/image/transf/dimension=1040x10000:format=jpg/path/s2217cd0bb1220415/image/i2fa63f78668f5482/version/1704057547/chronology.jpg');
+    background-size: cover; /* Optional: Adjusts the size of the background image */
+    background-repeat: no-repeat;
+ 
+  }
+
+  #subject-card-main-history:hover{
+    scale: 1;
+    box-shadow: 2px 2px 2px 4px rgba(0, 0, 255, 0.496);
+ transition: .5s ease-in-out;
+  }
+
+  #subject-card-main-history a{
+    color: white;
+    width: 100%;
+    height: 100%;
+   font-size: 4vw;
+   backdrop-filter: blur(1px);
+ 
+  }
+
+  /* English */
+
+  #subject-card-main-english{
+    width: 25vw;
+    height: 13vw;
+    background-image: url('https://st2.depositphotos.com/1152339/7121/i/450/depositphotos_71215107-stock-photo-education-concept-english-on-wall.jpg');
+    background-size: cover; /* Optional: Adjusts the size of the background image */
+    background-repeat: no-repeat;
+ 
+  }
+
+  #subject-card-main-english:hover{
+    scale: 1;
+    box-shadow: 2px 2px 2px 4px rgba(0, 0, 255, 0.496);
+ transition: .5s ease-in-out;
+  }
+
+
+  #subject-card-main-english a{
+    color: white;
+    width: 100%;
+    height: 100%;
+   font-size: 4vw;
+   backdrop-filter: blur(2px);
+ 
+  }
+
+  /* Biology */
+
+  #subject-card-main-bio{
+    width: 25vw;
+    height: 13vw;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeJPumTaXVWxIB0R3pZc6DqUTqUSLeY_su9g&s');
+    background-size: cover; /* Optional: Adjusts the size of the background image */
+    background-repeat: no-repeat;
+ 
+  }
+
+  #subject-card-main-bio:hover{
+    scale: 1;
+    box-shadow: 2px 2px 2px 4px rgba(0, 0, 255, 0.496);
+ transition: .5s ease-in-out;
+  }
+
+  #subject-card-main-bio a{
+    color: white;
+    width: 100%;
+    height: 100%;
+   font-size: 20px;
+   backdrop-filter: blur(2px);
+ 
+  }
+  
+  @media screen and (max-width: 600px) {
+   #subject-card-main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+
+   #subject-card-main-chemistry{
+       width: 60vh;
+       height: 50vw;
+      
+    }
+   #subject-card-main a{
+    font-size:10vw ;
+    color: rgba(241, 189, 18, 0.97);
+    }
+
+   #subject-card-main-math{
+       width: 60vh;
+       height: 50vw;
+    }
+
+   #subject-card-main-physics{
+       width: 60vh;
+       height: 50vw;
+    }
+
+   #subject-card-main-english{
+       width: 60vh;
+       height: 50vw;
+    }
+   #subject-card-main-geography{
+       width: 60vh;
+       height: 50vw;
+    }
+   #subject-card-main-history{
+       width: 60vh;
+       height: 50vw;
+    }
+
+   #subject-card-main-bio{
+       width: 60vh;
+       height: 50vw;
+    }
+  }
+
+  
+
+  /* features */
+
+  .features-semi-main h3{
+    /* font-size: 1.39vw; */
+    color: rgba(0, 0, 255, 0.496);
+    font-weight: 800;
+  }
+
+  .features-semi-main p{
+    font-size: 19px;
+    line-height: 20px;
+    font-weight: 600;
+  }
+
+  #enquiry-main{
+    margin-top:50px ;
+  }

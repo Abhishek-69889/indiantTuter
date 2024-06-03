@@ -1,0 +1,64 @@
+.dashboard-main{
+ margin-top: 90px;
+ 
+}
+.dashboard-main h1{
+ font-size: 3vw;
+ color: rgba(0, 0, 255, 0.768);
+ font-weight: 500;
+ border-bottom: 1px solid rgba(0, 0, 0, 0.336);
+}
+
+#dashboard-semimain-div{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5vw;
+  cursor: pointer;
+}
+#searchbar_data{
+  width: 50vw;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#searchbar{
+  display: flex;
+  align-items: center;
+  background-color: white;
+}
+#searchbar form{
+  width: 15vw;
+  margin-top: 1vw;
+}
+
+.buttons{
+  color: white;
+  width: 5vw;
+  background-color:rgba(0, 0, 255, 0.945) ;
+
+ height: 5vh;
+ border-radius: 1vw;
+display: flex;
+align-items: center;
+justify-content: center;
+ margin-top: 1vw;
+ /* gap: 10px; */
+}
+
+#card{
+ margin-left: 20vw;
+ margin-top: 5vw;
+ box-shadow: 4px 4px 4px 7px rgba(0, 0, 0, 0.301);
+}
+
+#card-data{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+#teacher-student{
+  width: 200px;
+  display: flex;
+  justify-content: space-evenly;
+}

@@ -1,0 +1,84 @@
+/* TutorFinder.css */
+.tutor-finder {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .role-buttons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .role-button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 8px;
+  }
+  
+  .role-button.active {
+    background-color: #0056b3;
+  }
+  
+  .search-bar {
+    margin-bottom: 20px;
+  }
+  
+  input[type='text'] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+  }
+  
+  .filter-options {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  select {
+    flex: 1;
+    margin-right: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+  }
+  
+  button[type='submit'] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  button[type='submit']:hover {
+    background-color: #0056b3;
+  }
+  
+
+
+/* Example of media queries for responsiveness */
+@media only screen and (max-width: 768px) {
+    /* Adjust styling for smaller screens */
+  }
+  
+  @media only screen and (max-width: 480px) {
+    /* Adjust styling for even smaller screens */
+  }
+  

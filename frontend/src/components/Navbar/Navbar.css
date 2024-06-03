@@ -1,0 +1,72 @@
+/* black background */
+
+#navbar-main{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+   /* background-color: rgba(32, 31, 31, 0.6); */
+    box-sizing: border-box;
+    /* padding: 10px 90px; */
+    box-shadow: 0 2px 4px rgba(202, 193, 193, 0.1);
+    z-index: 1;
+    transition: background-color 0.3s ease-in-out;
+    backdrop-filter: blur(2px);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.241);
+}
+
+#nav-main-div{
+    color: black;
+    font-size: 1.1vw;
+    font-weight: 500px;
+}
+#nav-main-div:hover{
+    color: rgba(33, 12, 12, 0.818);
+}
+
+#nav-icon-search{
+    width: 10vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 1vw;
+}
+
+#nav-main-search-Link{
+    color: #fdfdfd;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 220px;
+    height: 35px;
+    background-color: rgba(184, 181, 181, 0.815);
+    border: 1px solid rgba(0, 0, 0, 0.139);
+    /* box-shadow: 0 2px 4px rgba(202, 193, 193, 0.1); */
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#nav-main-search-Link h2{
+ background-color: #545353;
+ 
+}
+#nav-main-search-Link h2:hover{
+ background-color: #6d6c6c;
+ 
+}
+
+#nav-main-search-Link:hover{
+    background-color: rgba(208, 204, 204, 0.815);
+}
+
+
+
+
+
+@media screen and (max-width: 600px) {
+    #nav-icon-search{
+      display: none;
+    }
+  }

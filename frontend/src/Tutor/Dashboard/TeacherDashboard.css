@@ -1,0 +1,73 @@
+/* Teacher Dashboard styles */
+#dashboard-main{
+  
+    margin-top: 70px;
+
+}
+
+.teacher-dashboard {
+    display: flex;
+  }
+  
+  .sidebar {
+    height: 100%;
+    flex: 1;
+    background-color: #333;
+    color: white;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar li {
+    padding: 10px 20px;
+  }
+  
+  .main-content {
+    flex: 4;
+    padding: 20px;
+  }
+  
+  .header {
+    background-color: #f0f0f0;
+    padding: 20px;
+  }
+  
+  .dashboard-content {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .dashboard-stats {
+    flex: 1;
+  }
+  
+  .stat {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .stat-icon {
+    margin-right: 10px;
+  }
+  
+  .enquiry-details {
+    flex: 2;
+  }
+  
+  .enquiry-card {
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  

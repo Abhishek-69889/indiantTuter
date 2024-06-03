@@ -1,0 +1,51 @@
+@media only screen and (max-width: 600px) {
+  #sidebar {
+    /* width: 10vw; */
+    display: none; /* Adjust the width as per your requirement */
+  }
+}
+
+#show-button{
+  /* position: fixed; */
+  margin-top: 1vh;
+  margin-left: 1vh;
+  height: 5vh;
+   color: blue;
+  background: White  ;
+  width: 10vh;
+  border: 1px solid blue;
+  text-align: center;
+  font-size: 20px;
+  border-radius: 2vh;
+}
+#show-button:hover{
+  margin-top: 1vh;
+  margin-left: 1vh;
+  color: rgb(231, 231, 236);
+  background: blue  ;
+  width: 5vw;
+  border: 1px solid blue;
+  text-align: center;
+  font-size: 20px;
+  border-radius: 2vw;
+}
+#hide-button{
+  margin-top: 0;
+  color: blue;
+  background: White  ;
+  width: 10vh;
+  border: 1px solid blue;
+  text-align: center;
+  font-size: 20px;
+  border-radius: 2vh;
+}
+#hide-button:hover{
+  margin-top: 0;
+  color: rgb(231, 231, 236);
+  background: blue  ;
+  width: 5vw;
+  border: 1px solid blue;
+  text-align: center;
+  font-size: 20px;
+  border-radius: 2vw;
+}
